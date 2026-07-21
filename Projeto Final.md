@@ -26,6 +26,7 @@ Qual órgão pagou mais no total?
 
 
 
+#### Com as informações tratadas na camada silver, com a análise da camada Gold iremos responder as perguntas e negócio.
 
 
 #### Os 5 órgãos com o maior custo são:
