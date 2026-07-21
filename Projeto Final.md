@@ -1,6 +1,6 @@
 # Projeto Final SCTEC
 
-####Contextualizando
+#### Contextualizando
 
 Atualmente, a transparência pública permite a geração de grandes volumes de dados abertos. Um deles refere-se à base de Viagens a Serviço do Portal da Transparência do Governo Federal. Entretanto, estes dados são disponibilizados em sua forma bruta. 
 O Projeto irá transformá-los em informação confiável, que, por sua vez, extrai, limpa, modela e analisa. Será criado um pipeline de dados (ETL) e a Arquitetura Medallion (camadas Raw, Silver e Gold) com Python e SQL.
