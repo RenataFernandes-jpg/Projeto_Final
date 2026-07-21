@@ -1,11 +1,13 @@
 # Projeto Final SCTEC
 
 ####Contextualizando
-Atualmente, a transparência pública permite a geração de grandes volumes de dados abertos. Um deles refere-se à base de Viagens a Serviço do Portal da Transparência do Governo Federal. Entretanto, estes dados são disponibilizados em sua forma bruta e, transformá-los em informação confiável é trabalho do Engenheiro de Dados, que, por sua vez, extrai, limpa, modela e analisa. Dominar um pipeline de dados (ETL) e a Arquitetura Medallion (camadas Raw, Silver e Gold) com Python e SQL é uma das competências mais valorizadas na área de dados atualmente, uma vez que permite uma utilização eficiente e segura. 
 
-O desafio é construir, do zero, um pipeline de dados que baixe essas informações, preservando o histórico original, limpar a estrutura e transformar os dados brutos em métricas e gráficos claros.
+Atualmente, a transparência pública permite a geração de grandes volumes de dados abertos. Um deles refere-se à base de Viagens a Serviço do Portal da Transparência do Governo Federal. Entretanto, estes dados são disponibilizados em sua forma bruta. 
+O Projeto irá transformá-los em informação confiável, que, por sua vez, extrai, limpa, modela e analisa. Será criado um pipeline de dados (ETL) e a Arquitetura Medallion (camadas Raw, Silver e Gold) com Python e SQL.
+Nas camadas raw iremos preservar os dados originais brutos, na camada silver trataremos os dados e na camada gold faremos as análises para responer as perguntas e negócio.
 
-#### Perguntas operacionais:
+
+#### Perguntas de negócio que serão responida na análise:
 
 Os 5 órgãos com maior custo total? 
 
@@ -20,6 +22,10 @@ Qual o meio de transporte mais usado nos trechos?
 Qual UF de destino aparece em mais trechos? 
 
 Qual órgão pagou mais no total? 
+
+
+
+
 
 
 #### Os 5 órgãos com o maior custo são:
